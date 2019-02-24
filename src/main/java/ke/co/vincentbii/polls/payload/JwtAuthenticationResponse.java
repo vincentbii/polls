@@ -1,13 +1,7 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ke.co.vincentbii.polls.payload;
 
 /**
- *
- * @author USER
+ * Created by rajeevkumarsingh on 19/08/17.
  */
 public class JwtAuthenticationResponse {
     private String accessToken;
@@ -32,6 +26,4 @@ public class JwtAuthenticationResponse {
     public void setTokenType(String tokenType) {
         this.tokenType = tokenType;
     }
-    
-    
 }

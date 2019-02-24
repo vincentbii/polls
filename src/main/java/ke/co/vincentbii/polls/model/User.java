@@ -5,6 +5,7 @@
  */
 package ke.co.vincentbii.polls.model;
 
+import ke.co.vincentbii.polls.audit.DateAudit;
 import java.util.HashSet;
 import java.util.Set;
 import javax.persistence.Entity;

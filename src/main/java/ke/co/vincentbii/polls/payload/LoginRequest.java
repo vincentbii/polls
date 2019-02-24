@@ -1,15 +1,9 @@
-/*
- * To change this license header, choose License Headers in Project Properties.
- * To change this template file, choose Tools | Templates
- * and open the template in the editor.
- */
 package ke.co.vincentbii.polls.payload;
 
 import javax.validation.constraints.NotBlank;
 
 /**
- *
- * @author USER
+ * Created by rajeevkumarsingh on 02/08/17.
  */
 public class LoginRequest {
     @NotBlank
@@ -33,5 +27,4 @@ public class LoginRequest {
     public void setPassword(String password) {
         this.password = password;
     }
-    
 }
